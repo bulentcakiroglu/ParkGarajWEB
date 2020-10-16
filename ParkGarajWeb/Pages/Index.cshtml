@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Park Garaj</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="card-columns">
+    @foreach (var Park in Model.Parks)
+    {
+    <div class="card">
+        <div class="card-img" style="background-image: url('@Park.Image');"></div>
+        <div class="card-body">
+            <h5 class="card-title">@Park.Title</h5>
+        </div>
+    </div>
+    }
+</div>

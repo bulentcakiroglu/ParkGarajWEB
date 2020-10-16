@@ -1,0 +1,27 @@
+﻿[
+  {
+    "Id": "parkgaraj-lastik",
+    "Maker": "@parkgaraj06",
+    "img": "https://yag.com.tr/uploads/img/hizmetler/Tire-Change.jpg",
+    "Url": "http://www.tisgeli.com/hizmet-lastik-degisimi-25",
+    "Title": "Lastik Satış,Değişim ve Oteli",
+    "Rating":  null
+  },
+  {
+    "Id": "parkgaraj-yıkama",
+    "Maker": "@parkgaraj06",
+    "img": "https://www.mercanendustriyel.com/wp-content/uploads/2018/10/oto-boya-koruma.jpg",
+    "Url": "https://www.mercanendustriyel.com/2018/10/14/boya-koruma-hakkinda/",
+    "Title": "Araç Yıkama,Kuaför,Boya Koruma",
+    "Rating": null
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "Maker": "@parkgaraj06",
+    "img": "https://www.elifservice.com/resimler/resimler/proje_md_150922395317346.jpg",
+    "Url": "http://www.elifservice.com/hizmetlerimiz/1-oto-periyodik-bakim-elif-oto-ozel-servis-ve-yedek-parca-volkswagen-audi-seat-skoda-porsche.html",
+    "Title": "Araç Periyodik Bakım,Yağ Değişimi",
+    "Rating": null
+  }
+]
+  
