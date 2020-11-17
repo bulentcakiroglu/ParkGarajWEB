@@ -1,0 +1,24 @@
+﻿@page
+@model ÜrünModel
+@{
+    ViewData["Title"] = "Kullandığımız Ürünler";
+}
+
+<h4><link href="https://fonts.google.com/specimen/Goldman?sidebar.open=true&selection.family=Goldman:wght@700" rel="stylesheet">@ViewData["Title"]</h4>
+<fieldset>
+    <div class="card-columns">
+        @foreach (var Ürün in Model.Ürüns)
+        {
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-img" style="background-image: url('@Ürün.Image');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Ürün.Title</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</fieldset>

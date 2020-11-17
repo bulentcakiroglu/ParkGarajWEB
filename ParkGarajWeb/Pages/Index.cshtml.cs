@@ -20,13 +20,13 @@ namespace ParkGarajWeb.Pages
             JsonFileParkService parkService)
         {
             _logger = logger;
-            ParkService = parkService;
+            ParkService = parkService; 
         }
 
         public void OnGet()
         {
             Parks = ParkService.GetParks();
-
         }
     }
+    
 }

@@ -6,9 +6,9 @@ using System.Text.Json;
 
 namespace ParkGarajWeb.Services
 {
-    public class JsonFileParkService
+    public class JsonUrunService
     {
-        public JsonFileParkService(IWebHostEnvironment webHostEnvironment)
+        public JsonUrunService(IWebHostEnvironment webHostEnvironment)
         {
             WebHostEnvironment = webHostEnvironment;
         }
@@ -16,18 +16,18 @@ namespace ParkGarajWeb.Services
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "parkgaraj.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "urun.json"); }
         }
-        public IEnumerable<Park> GetParks()
+        public IEnumerable<Ürün> GetÜrüns()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
-                return JsonSerializer.Deserialize<Park[]>(jsonFileReader.ReadToEnd(),
+                return JsonSerializer.Deserialize<Ürün[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
                         PropertyNameCaseInsensitive = true
                     });
             }
         }
-    }   
+    }
 }

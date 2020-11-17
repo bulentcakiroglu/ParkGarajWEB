@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
@@ -30,6 +30,9 @@ namespace ParkGarajWeb
             services.AddRazorPages();
             services.AddTransient<JsonFileParkService>();
             services.AddControllers();
+            services.AddTransient<JsonUrunService>();
+            services.AddTransient<İletişimService>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +51,7 @@ namespace ParkGarajWeb
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            
 
             app.UseRouting();
 
@@ -57,12 +61,12 @@ namespace ParkGarajWeb
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
-                //endpoints.MapGet("/parks", (context) =>
-                //{
-                //    var parks = app.ApplicationServices.GetService<JsonFileParkService>().GetParks();
-                //    var json = JsonSerializer.Serialize<IEnumerable<Park>>(parks);
-                //    return context.Response.WriteAsync(json);
-                //});
+                endpoints.MapGet("/parks", (context) =>
+                {
+                   var parks = app.ApplicationServices.GetService<JsonFileParkService>().GetParks();
+                    var json = JsonSerializer.Serialize<IEnumerable<Park>>(parks);
+                   return context.Response.WriteAsync(json);
+                });
             });
         }
     }

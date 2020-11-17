@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ParkGarajWeb.Model;
 using ParkGarajWeb.Services;
+//Ürünler servis kontroll kur ürünler.cshtml ekle falan sonra staartup da videodaki yerleri yap servise yeni olanı yaz ....//
 
 namespace ParkGarajWeb.Controller
 {
@@ -13,7 +14,7 @@ namespace ParkGarajWeb.Controller
     [ApiController]
     public class ParksController : ControllerBase
     {
-        public ParksController(JsonFileParkService parkService)
+        public  ParksController(JsonFileParkService parkService)
         {
             this.ParkService = parkService;
         }
@@ -23,13 +24,7 @@ namespace ParkGarajWeb.Controller
         {
             return ParkService.GetParks();
         }
-        [Route("Rate")]
-        [HttpGet]
-        public ActionResult Get([FromQuery] string ParkId ,
-            [FromQuery] int Rating)
-        {
-            ParkService.AddRating(ParkId, Rating);
-            return Ok();
-        }
+        
     }
+    
 }

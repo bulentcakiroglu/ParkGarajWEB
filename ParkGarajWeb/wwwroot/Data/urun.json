@@ -1,0 +1,110 @@
+﻿[
+  {
+    "Id": "parkgaraj-lastik",
+    "img": "https://www.logovector.org/wp-content/uploads/logos/png/g/goodyear_logosu_logo.png",
+    "Url": "https://www.logovector.org/logo/goodyear-logosu/",
+    "Title": "Goodyear"
+  },
+  {
+    "Id": "parkgaraj-yıkama",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmHloA5A5fNSWL9U-7mzjULIJ9Taga-1I9rw&usqp=CAU",
+    "Url": "https://www.facebook.com/pg/MenzernaGaziantep/posts/",
+    "Title": "Menzerna"
+  },
+  {
+    "Id": "parkgaraj-yıkama",
+    "img": "https://www.enterprise-consulting.it/wp-content/uploads/2016/06/mafra-1320x676.png",
+    "Url": "https://www.enterprise-consulting.it/portfolio/mafra/",
+    "Title": "Mafra"
+  },
+  {
+    "Id": "parkgaraj-yıkama",
+    "img": "https://i1.adis.ws/i/washford/haluk-brands-autoglym-logo_1?w=180",
+    "Url": "https://www.halfords.com/brands/autoglym.html",
+    "Title": "AUTOGLYM"
+  },
+  {
+    "Id": "parkgaraj-yıkama",
+    "img": "data:image/jpeg;base64,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",
+    "Url": "https://www.facebook.com/nanolexturkiye/",
+    "Title": "Nanolex"
+  },
+  {
+    "Id": "parkgaraj-yıkama",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmfNcF70br607dIGDMdIj0HPh5OYyaf-Gvvw&usqp=CAU",
+    "Url": "https://tr-tr.facebook.com/pg/Gyeon.ch/posts/",
+    "Title": "Gyeon"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRn6wqX9a9Ekhey9x4H3YUTwBHobFJ6WxKTew&usqp=CAU",
+    "Url": "https://www.facebook.com/BoschMiddleEast/",
+    "Title": "Bosch"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://www.hotelasistan.com/yonetim/firmalogolari/55682374.jpg",
+    "Url": "https://www.hotelasistan.com/100002894-osram-ligthing-turkiye-ledvance-aydinlatma-tic-as",
+    "Title": "Osram"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://www.inciaku.com/media/3lolrhv4/inci-aku-logo-1200-1200-mavi.png",
+    "Url": "https://www.inciaku.com/",
+    "Title": "İnci Akü"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://ocallarpetrol.com.tr/wp-content/uploads/castrol.jpg",
+    "Url": "http://ocallarpetrol.com.tr/urun/castrol-syntrans-z-75w-80/",
+    "Title": "Castrol"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://cvforum.in/wp-content/uploads/2019/04/Mobil-Logo.jpg",
+    "Url": "https://cvforum.in/sponsor/mobil/mobil-logo/",
+    "Title": "Mobil"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/122011/mann_filter.jpg?itok=CjFuaPO3",
+    "Url": "https://www.brandsoftheworld.com/logo/mann-filter",
+    "Title": "Mann-Filter"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/35/95/96/3595964d-de59-8368-519f-7e2f997c5391/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/1200x630wa.png",
+    "Url": "https://apps.apple.com/tr/app/mahle/id1476515322?l=tr",
+    "Title": "Mahle"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://www.dynamicautomotive.eu/files/yuklenenler/R_5bf69c9cea651_R_5bf67d5231d37_Kraftvoll.jpg",
+    "Url": "https://www.dynamicautomotive.eu/en/urunler.html",
+    "Title": "Kraftvoll"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/52/09/00/520900c8-ac6d-ccf4-9904-df29835f672c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/600x600wa.png",
+    "Url": "https://apps.apple.com/tr/app/purflux/id1338786818?l=tr",
+    "Title": "Purflux"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://seekvectorlogo.com/wp-content/uploads/2018/03/ferodo-vector-logo.png",
+    "Url": "http://seekvectorlogo.com/ferodo-vector-logo-svg/",
+    "Title": "Ferodo"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://seekvectorlogo.com/wp-content/uploads/2018/03/trw-automotive-vector-logo-small.png",
+    "Url": "http://seekvectorlogo.com/trw-automotive-vector-logo-svg/",
+    "Title": "TRW"
+  },
+  {
+    "Id": "parkgaraj-bakım",
+    "img": "https://www.metforotomotiv.com/dukkan/image/cache/catalog/urunler/5186/BRAXIS-0-1-2-200x200.jpg",
+    "Url": "https://www.metforotomotiv.com/dukkan/braxis-119",
+    "Title": "Braxis"
+  }
+]
